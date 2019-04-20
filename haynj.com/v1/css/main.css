@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+.body {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbotron {
+	background-image: url('../img/jumbotron/stock-hay-img-blur.jpg');
+	background-size: 100% 280%;
+	background-position: center;
+	color: white;
+	background-color: gray;
+}
+.jumbotron h1 {
+	text-shadow: 2px 2px black;
+}
+
+.jumbotron-about {
+	background-image: url('../img/jumbotron/barn-blur.png');
+}
+.jumbotron-contact {
+	background-image: url('../img/jumbotron/field-blur.jpg');
+}
+.jumbotron-wood {
+	background-image: url('../img/jumbotron/wood-blur.png');
+	text-shadow: 1px 1px black;
+}
+.jumbotron-hay {
+	background-image: url('../img/jumbotron/bales-blur.jpg');
+}
+.jumbotron-shavings {
+	background-image: url('../img/jumbotron/shavings1.jpg');
+}
+.jumbotron-salt {
+	background-image: url('../img/jumbotron/salt3.jpg');
+}
+
+.mynav {
+	margin-bottom: 0px;
+}
+.slogan {
+	font-size:20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+.navbar-right {
+	padding-right: 1em;
+}
+
+#map {
+	width: 500px;
+	height: 400px;
+}
+
+a.link-telephone {
+	line-height: 2em;
+}
+a.link-telephone:hover {
+	text-decoration: none;
+}
+
+.dev {
+	font-size: 70%;
+}

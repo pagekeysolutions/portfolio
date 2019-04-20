@@ -1,0 +1,46 @@
+footer {
+  width: 100%;
+  padding: 0.5em;
+  text-align: center;
+  margin-top: 2em;
+}
+footer .footer-inner {
+  width: 80%;
+  margin: auto;
+}
+footer a {
+  color: inherit;
+}
+footer .smalltext {
+  font-size: 0.7rem;
+}
+
+.carousel-item {
+  max-height: 50vh;
+}
+.carousel-caption {
+  text-shadow: 1px 1px black;
+}
+
+.about.title, .contact.title {
+  margin: 1em auto;
+}
+
+
+.marketing {
+  text-align: center;
+  padding: 1em 0;
+}
+
+hr {
+  border-top: 2px solid lightgray;
+  padding: 1em 0;
+}
+
+.featurette div img {
+  width: 100%;
+}
+
+.jumbotron {
+  margin-top: 1em;
+}

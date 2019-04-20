@@ -1,0 +1,142 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+body {
+	
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	
+	color: black;
+}
+
+/* General elements */
+
+/* Navbar */
+nav {
+	min-height: 20%;
+	margin: 0.5rem;
+	text-align: center;
+}
+nav img, .brand {
+	display: block;
+	margin: auto;
+	width: 250px;
+}
+nav .brand {
+	color: inherit;
+	text-decoration: none;
+	padding-bottom: 1.5rem;
+}
+nav .brand:hover {
+	color: inherit;
+}
+nav ul {
+	display: block;
+	padding: 0;
+}
+nav ul li {
+	display: inline;
+	padding: 0 4vw;
+	min-width: 4vw;
+}
+nav ul li a, .button {
+	color: inherit;
+	text-decoration: none;
+	padding: 0.5rem 2vw;
+	border-radius: 2rem;
+	transition: all 0.3s ease 0s;
+}
+.button {
+	background-color: rgba(0,0,0,0.2);
+}
+
+nav ul li a:hover, .active a, .button:hover {
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+
+/* Main */
+main {
+	text-align: center;
+}
+
+main .lead-image {
+	margin: auto;
+	margin-top: 4rem;
+	width: 40vw;
+	display: block;
+	border-radius: 3rem;
+	border: 1px solid lightgray;
+}
+
+main h1 {
+	font-size: 4rem;
+}
+main p.lead {
+	font-size: 2rem;
+    padding: 1rem;
+}
+
+main p.lead-subtitle {
+	font-size: 1.5rem;
+}
+
+main a {
+  color: inherit;
+}
+main p {
+  margin: 0 20%;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	padding: 0.5rem;
+	padding-top: 3rem;
+}
+footer .dev {
+	font-size: 80%;
+}
+
+footer a {
+	color:inherit;
+}
+
+/* Rabbit buttons */
+.rabbit_buttons {
+  margin-bottom: -1.5rem;
+}
+a .btn-rabbit {
+  margin: 1rem auto;
+  width: 50%;
+  padding: 2rem;
+  box-shadow: 1px 1px black;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.parent-page {
+  margin-top: -2rem;
+}
+
+
+div#phone {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+
+div#phone a {
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

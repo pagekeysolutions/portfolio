@@ -1,0 +1,26 @@
+@media only screen and (max-width : 750px) {
+  
+  body {
+    padding-top: 50px;
+  }
+	
+  nav ul li {
+      display: block;
+      padding: 10px 0;
+  }
+ 
+  nav ul {
+    padding-bottom: 5vh;
+    border-bottom: 3px dotted black;
+    padding-top: 5vh;
+    border-top: 3px dotted black;
+  }
+	
+	main p {
+	  margin: 0 5%;
+	}
+	
+	main .lead-image {
+		width: 50vw;
+	}
+}

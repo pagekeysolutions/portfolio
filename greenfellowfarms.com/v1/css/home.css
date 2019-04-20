@@ -1,0 +1,127 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+	font-family: 'Roboto', sans-serif;
+	background: gray;
+	background-image: url('../img/field4.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+	
+	color: white;
+}
+
+/* General elements */
+
+/* Navbar */
+nav {
+	min-height: 20%;
+	margin: 0.5rem;
+	text-align: center;
+}
+nav img, .brand {
+	display: block;
+	margin: auto;
+	width: 250px;
+}
+nav .brand {
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px black;
+	padding-bottom: 1.5rem;
+}
+nav .brand:hover {
+	color: white;
+}
+nav ul {
+	display: block;
+	padding: 0;
+}
+nav ul li {
+	display: inline;
+	padding: 0 4vw;
+	min-width: 4vw;
+}
+nav ul li a {
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+	padding: 0.5rem 2vw;
+	border-radius: 2rem;
+	transition: all 0.3s ease 0s;
+}
+nav ul li a:hover, .active a {
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+
+/* Main */
+main {
+	text-align: center;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+main h1 {
+	font-size: 4rem;
+	text-shadow: 1px 1px black;
+}
+main p.lead {
+	font-size: 2rem;
+	text-shadow: 1px 1px black;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	padding: 1rem;
+	text-shadow: 1px 1px black;
+}
+footer .dev {
+	font-size: 80%;
+}
+
+footer a {
+	color: inherit;
+}
+
+/* Media queries */
+
+@media only screen and (max-width : 750px) {
+  nav ul li {
+       padding: 10px 0;
+      margin-top: 50px;
+    line-height: 40px;
+  }
+  main h1 {
+    font-size: 3rem;
+  }
+   body {
+    padding-top: 50px;
+  }
+}
+
+
+div#phone {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+
+div#phone a {
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+  text-shadow: 1px 1px black;
+  padding: 5px;
+}

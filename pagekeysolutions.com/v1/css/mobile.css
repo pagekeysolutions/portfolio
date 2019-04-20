@@ -1,0 +1,5 @@
+@media only screen and (max-width: 485px) {
+  div.right {
+    font-size: small;
+  }
+}
