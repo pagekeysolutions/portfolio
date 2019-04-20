@@ -1,0 +1,154 @@
+$FOOTER_HEIGHT: 12vh;
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;   margin: 0;
+}
+
+.btn {
+	background-color: white;
+	border-radius: 0.5rem;
+	border: 1px solid gray;
+	padding: 0.5rem;
+	text-decoration: none;
+	color: black;
+}
+.btn:hover {
+	opacity: 0.2;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+	transition: all 0.3s ease 0s;
+    &:hover {
+        opacity: 0.2;
+    }
+}
+
+nav, main, footer {
+    text-align: center;
+    margin: 0;
+    border-width: 0;
+}
+
+// Navbar
+nav {
+    min-height: 20vh;    
+    .title {
+        font-size: 2rem;
+        padding-top: 1.25rem;
+    }
+    ul {
+        padding: 0;
+        li {
+            display: inline-block;
+            padding: 0 5vw;
+			min-width: 6vw;
+            a {
+				font-size: 1.5rem;
+                border-bottom: 0.25rem solid black;
+            }
+        }
+    }
+}
+li.active {
+    opacity: 0.2;
+    a:hover {
+        opacity: 1;
+    }
+}
+
+// Main section
+main {
+    min-height: 60vh;
+    margin-bottom: -$FOOTER_HEIGHT;
+}
+.main_images a {
+    padding: 6vw;
+}
+#avatar {
+    max-width: 15rem;
+    border-radius: 50%;
+	display: inline;
+}
+.social {
+    a {
+        opacity: 1;
+    }
+    img {
+        max-width: 7rem;
+        border-radius: 50%;
+        opacity: 0.2;
+		transition: all 0.3s ease 0s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+h1 {
+    font-size: 2.5rem;
+}
+p.lead {
+    font-size: 1.2rem;
+}
+.container {
+    text-align: left;
+    padding: 0 25%;
+    section {
+        padding: 0 10%;
+    }
+}
+thead td {
+    font-weight: bold;
+    min-width: 7rem;
+    padding-right: 2rem;
+}
+
+td.emphasis {
+    font-style: italic;
+    padding-right: 2rem;
+    min-width: 7rem;
+}
+
+// Sticky Footer
+.push, footer {
+    height: $FOOTER_HEIGHT;
+}
+footer {
+    line-height: $FOOTER_HEIGHT;
+}
+
+// Icons indicating programming language
+.lang {
+	line-height: 15px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	position: relative;
+	border-radius: 10px;
+}
+.lang-css {
+	background-color: #563d7c;
+}
+.lang-html {
+	background-color: #e44b23;
+}
+.lang-java {
+	background-color: #b07219;
+}
+.lang-javascript {
+	background-color: #f1e05a;
+}
+.lang-python {
+	background-color: #3572A5;
+}
+.lang-racket {
+	background-color: #22228f;
+}
+.lang-ruby {
+	background-color: #701516;
+}

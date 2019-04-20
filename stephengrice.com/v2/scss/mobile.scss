@@ -1,0 +1,50 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 540px) {
+	#mobile {
+		/* JS relies on this property to determine if mobile styling is displayed! */
+		visibility: visible;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	.bigbuttons a {
+		font-size: 2em;
+		display: block;
+		padding-bottom: 2em;
+	}
+	
+	nav {
+		height: 12vh;;
+		a {
+			display: block;
+			height: 4vh;
+		}
+	}
+	
+	.carousel {
+		height: 65vh;
+		img {
+			height: 10em;
+		}
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
