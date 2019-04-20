@@ -61,7 +61,7 @@ header {
 
 /** CENTERED INTRO SLIDE */
 .intro-wrap {
-  background-image: url("/images/bg-computer.jpeg");
+  background-image: url("../images/bg-computer.jpeg");
   background-position: center;
   background-size: cover;
   color: #fcfcfc;
